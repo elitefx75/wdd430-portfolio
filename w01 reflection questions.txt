@@ -1,0 +1,6 @@
+What is the purpose of app/layout.tsx in the Next.js App Router?
+It defines the root layout for my Next.js application, ensuring global styles, headers, footers, and other shared elements are consistently applied across all pages.
+
+Why are the components in this assignment Server Components rather than Client Components?
+They run on the server by default, improving performance and security by reducing client‑side JavaScript
+They allow dynamic rendering and seamless integration with backend data.
