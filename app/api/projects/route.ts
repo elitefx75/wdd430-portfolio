@@ -5,5 +5,5 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const type = searchParams.get("type");
 
-  return NextResponse.json(getProjects(type));
+  return NextResponse.json(await getProjects(type));
 }
